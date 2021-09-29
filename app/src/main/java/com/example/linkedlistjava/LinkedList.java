@@ -23,13 +23,18 @@ public class LinkedList {
             // The node itself will be the head:
             head = node;
         } else {
-            // In case we have already some nodes in the list:
+            // In case we have already some nodes in the list, we will create a new node
+            // and make it as head:
             Node n = head;
             while (n.next != null) {
-                n = n.next;
+                n = n.next;  // We are travelling between nodes until
+                             // we reach the last existing node (next==null)
             }
-
+            n.next = node;
         }
+    }
+
+    public void show(){
 
     }
 }
