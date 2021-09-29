@@ -84,6 +84,20 @@
         android:textStyle="bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Delete Node"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_Print"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
