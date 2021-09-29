@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LinkedListJava</string>
+    <string name="node_position">Node position</string>
+    <string name="node_data">Node data</string>
+    <string name="add_to_start">Add to Start</string>
+    <string name="insert">Insert</string>
+    <string name="add_to_end">Add to End</string>
+    <string name="delete_node">Delete Node</string>
+    <string name="print_linkedlist">Print LinkedList</string>
 </resources>
